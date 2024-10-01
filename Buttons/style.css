@@ -22,3 +22,13 @@ body {
 .btn-purple:hover {
     background-color: #5f13af;
 }
+.btn-rounded {
+    border-radius: 20px;
+}
+.btn-red {
+    background-color: #d52730;
+    color: white;
+}
+.btn-red:hover {
+    background-color: #af121a;
+}
