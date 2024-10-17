@@ -4,9 +4,19 @@ body {
 }
 h2 {
     color: white;
+    text-align: center;
 }
 .container {
     max-width: 1000px;
-    background-color: red;
     margin: auto;
+}
+.grid-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bg-blue {
+    background-color: blue;
+}
+.bg-green {
+    background-color: green;
 }
