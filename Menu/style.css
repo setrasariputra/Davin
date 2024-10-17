@@ -1,0 +1,12 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #9897A5;
+}
+h2 {
+    color: white;
+}
+.container {
+    max-width: 1000px;
+    background-color: red;
+    margin: auto;
+}
