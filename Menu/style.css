@@ -29,6 +29,7 @@ h2 {
     border-radius: 5px;
 }
 .horizontal-menu ul {
+    position: relative;
     margin: 0px;
     padding: 0px;
     list-style-type: none;
@@ -63,4 +64,26 @@ h2 {
 .horizontal-menu.hover-dark ul li a:hover {
     background-color: #414141;
     color: white;
+}
+.horizontal-menu ul ul {
+    display: none;
+    position: absolute;
+    width: 150px;
+    background-color: #333333;
+    z-index: 10;
+}
+.horizontal-menu li:hover a {
+    background-color: #00A0D2;
+    color: white;
+}
+.horizontal-menu li:hover ul {
+    display: block;
+}
+.horizontal-menu li:hover ul li {
+    display: block;
+}
+.horizontal-menu li:hover ul li a {
+    color: white;
+    background-color: #333333;
+    text-align: left;
 }
