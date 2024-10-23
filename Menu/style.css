@@ -72,8 +72,16 @@ h2 {
     background-color: #333333;
     z-index: 10;
 }
-.horizontal-menu li:hover a {
+.horizontal-menu.hover-blue li:hover a {
     background-color: #00A0D2;
+    color: white;
+}
+.horizontal-menu.hover-green li:hover a {
+    background-color: #B0D14C;
+    color: white;
+}
+.horizontal-menu.hover-dark li:hover a {
+    background-color: #414141;
     color: white;
 }
 .horizontal-menu li:hover ul {
@@ -86,4 +94,20 @@ h2 {
     color: white;
     background-color: #333333;
     text-align: left;
+}
+.horizontal-menu.hover-blue li:hover ul li a {
+    background-color: #333333;
+    color: white;
+}
+.horizontal-menu.hover-blue li:hover ul li a:hover {
+    background-color: #00A0D2;
+    color: white;
+}
+.horizontal-menu.hover-green li:hover ul li a {
+    background-color: #333333;
+    color: white;
+}
+.horizontal-menu.hover-green li:hover ul li a:hover {
+    background-color: #B0D14C;
+    color: white;
 }
