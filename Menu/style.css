@@ -18,11 +18,20 @@ h2 {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
+.column-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 .bg-blue {
     background-color: blue;
 }
 .bg-green {
     background-color: green;
+}
+.bg-yellow {
+    background-color: yellow;
+}
+.bg-dark {
+    background-color: #333333;
 }
 .horizontal-menu {
     background-color: white;
