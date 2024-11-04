@@ -120,3 +120,12 @@ h2 {
     background-color: #B0D14C;
     color: white;
 }
+.vertical-menu {
+    background-color: white;
+    border-radius: 5px;
+}
+.vertical-menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
