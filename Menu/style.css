@@ -129,3 +129,16 @@ h2 {
     padding: 0px;
     list-style-type: none;
 }
+.vertical-menu ul li {
+
+}
+.vertical-menu ul li a {
+    display: block;
+    padding: 10px 20px 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #414141;
+}
+.vertical-menu ul li a:hover {
+    background-color: #E1E1E1;
+}
